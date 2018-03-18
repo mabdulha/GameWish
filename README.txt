@@ -1,6 +1,5 @@
 
 Student Name: Mozeeb Abdulha
-Student ID:   20075835
 
 
 About GameWish
