@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/playstation"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+    <EditText
+        android:id="@+id/updName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:ems="10"
+        android:hint="@string/upName"
+        android:inputType="textPersonName"
+        tools:hint="@string/updName" />
+
+    <EditText
+        android:id="@+id/updDev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updName"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_action_dev"
+        android:ems="10"
+        android:hint="@string/upDev"
+        android:inputType="textPersonName"
+        tools:hint="@string/updDev" />
+
+    <EditText
+        android:id="@+id/updGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/updDev"
+        android:layout_below="@+id/updDev"
+        android:drawableLeft="@drawable/ic_action_genre"
+        android:ems="10"
+        android:hint="@string/upGenre"
+        android:inputType="textPersonName"
+        tools:hint="@string/updGenre" />
+
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="75dp"
+        android:text="@string/delButton" />
+
+    <Button
+        android:id="@+id/updButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/delButton"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/delButton"
+        android:text="@string/updButton" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".activities.Wish">
+
+    <item
+        android:id="@+id/menuAddWish"
+        android:orderInCategory="100"
+        android:title="@string/menuAddWish"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuList"
+        android:orderInCategory="100"
+        android:title="@string/menuList"
+        app:showAsAction="never"/>
+
+</menu>

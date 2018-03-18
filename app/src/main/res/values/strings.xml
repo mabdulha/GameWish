@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GameWish</string>
+    <string name="name">Name</string>
+    <string name="dev">Developer</string>
+    <string name="genre">Genre</string>
+    <string name="add">Add</string>
+    <string name="upName">Name</string>
+    <string name="upDev">Developer</string>
+    <string name="upGenre">Genre</string>
+    <string name="delButton">Delete</string>
+    <string name="updButton">Update</string>
+    <string name="addBtn">Add</string>
+    <string name="updName">Name</string>
+    <string name="updDev">Developer</string>
+    <string name="updGenre">Genre</string>
+    <string name="menuList">Wish List</string>
+    <string name="menuAddWish">Add Wish</string>
+    <string name="welcomeText">Welcome To Game Wish</string>
+</resources>
